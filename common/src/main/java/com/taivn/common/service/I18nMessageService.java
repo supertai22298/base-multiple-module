@@ -1,5 +1,5 @@
 /*
- * (C) Copyright Hitachi Vantara (HVN) 2021. All rights reserved. Proprietary and confidential.
+ * (C) Copyright Hitachi Vantara (HVN) 2022. All rights reserved. Proprietary and confidential.
  */
 package com.taivn.common.service;
 
@@ -8,7 +8,7 @@ import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
 
 /**
- * @author tung.pham
+ * @author Taivn
  */
 
 /**

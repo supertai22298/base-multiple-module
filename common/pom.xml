@@ -7,13 +7,14 @@
     <parent>
         <groupId>com.taivn</groupId>
         <artifactId>pom-parent</artifactId>
-        <version>0.1.0-SNAPSHOT</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <groupId>com.taivn</groupId>
     <artifactId>common</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>Common</name>
     <description>Common</description>
 
     <dependencies>

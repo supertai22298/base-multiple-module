@@ -1,0 +1,56 @@
+# java -jar -Dspring.profiles.active=abc target/spring-boot-profile-1.0.jar
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sample
+    username: postgres
+    password: '123456'
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: update
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+  database:
+    enable-db-schema: true
+    enable-db-update: true
+    enable-db-view: true
+    enable-db-seeddata: false
+    enable-db-seed-update: false
+  email:
+    bicc: ''
+    bau: ''
+  filter-conditions:
+    kind-separator: '__'
+    value-separator: '_'
+    ml: 'ML'
+    nw: 'NW'
+    ic: 'IC'
+    cm: 'CM'
+    ns: 'NS'
+  taivn-config:
+    forecast-days: 30
+    search-date: '2020-01-01 00:00:00'
+# LOGGING
+logging:
+  pattern:
+    console: '%d %-5level %logger : %msg%n'
+    file: '%d %-5level [%thread] %logger : %msg%n'
+  level:
+    org.springframework.web: ERROR
+    org.hibernate: ERROR
+    com.taivn*: DEBUG
+  file:
+    max-size: 30MB
+server:
+  port: 8080
+jwt:
+  ignore-filter: false
+  exp: 4320
+
+# Global config
+# start app.
+
+

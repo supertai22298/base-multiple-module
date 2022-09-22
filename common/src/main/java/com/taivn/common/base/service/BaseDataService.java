@@ -89,7 +89,6 @@ public interface BaseDataService<TId, TEntity extends BaseEntity<TId>, TDto exte
      * Update.
      *
      * @param dto          the dto
-     * @param decryptedKey the decrypted key
      * @return the t dto
      */
     TDto update(TId id, TDto dto);

@@ -90,19 +90,9 @@ public final class ErrorCodes {
     /** The Constant TOKEN_EXPIRED_ID. */
     public static final long TOKEN_EXPIRED_ID = 1003;
 
-    /** Manufacturing */
     /** initial error */
-    public static final String MF_INITIAL_ERROR = "mf_initial_error";
+    public static final String SAMPLE_CREATE_SAMPLE_ERROR = "sample_create_sample_error";
 
-    /** initial error */
-    public static final String MF_CREATE_SCENARIOS_ERROR = "mf_create_scenario_error";
-
-    /** table does not exists error */
-    public static final String MF_TABLE_EXISTS_ERROR = "mf_table_exists_error";
-    
-    /** configuration info not exists error */
-    public static final String MF_CONFIGURATION_EXISTS_ERROR = "mf_config_exists_error";
-    
     /**
      * Instantiates a new error codes.
      */

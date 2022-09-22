@@ -4,10 +4,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 
 /**
@@ -18,7 +15,7 @@ import java.io.Serializable;
  */
 @Getter
 @Setter
-
+@MappedSuperclass
 /**
  *  Instantiates a new base entity.
  */
@@ -28,7 +25,7 @@ public abstract class BaseEntity<TId> implements Serializable {
     private static final long serialVersionUID = 3927981449952936338L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", unique = true)
     private TId id;
 }

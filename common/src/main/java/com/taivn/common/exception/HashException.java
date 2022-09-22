@@ -6,7 +6,7 @@
  * Change history:                                                                
  * Date             Defect#             Person             Comments               
  * -------------------------------------------------------------------------------
- * Feb 17, 2021     ********           Administrator            Initialize                  
+ * Feb 17, 2022     ********           Taivn            Initialize                  
  *                                                                                
  */
 package com.taivn.common.exception;

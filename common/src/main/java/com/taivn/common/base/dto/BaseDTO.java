@@ -14,5 +14,5 @@ public abstract class BaseDTO<TId> extends SerializableDTO {
     public abstract TId getIdentifier();
 
     @JsonIgnore
-    public abstract void setIdentifier();
+    public abstract void setIdentifier(TId id);
 }

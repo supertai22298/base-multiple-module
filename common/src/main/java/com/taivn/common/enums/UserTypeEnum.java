@@ -6,7 +6,7 @@
  * Change history:                                                                
  * Date             Defect#             Person             Comments               
  * -------------------------------------------------------------------------------
- * Sep 1, 2021     ********           Administrator            Initialize                  
+ * Sep 1, 2022     ********           Taivn            Initialize                  
  *                                                                                
  */
 package com.taivn.common.enums;

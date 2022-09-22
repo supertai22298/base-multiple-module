@@ -1,5 +1,5 @@
 /*
- * (C) Copyright Hitachi Vantara (HVN) 2021. All rights reserved. Proprietary and confidential.
+ * (C) Copyright Hitachi Vantara (HVN) 2022. All rights reserved. Proprietary and confidential.
  */
 package com.taivn.common.enums;
 
